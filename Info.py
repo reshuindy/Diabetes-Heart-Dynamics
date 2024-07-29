@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the dataset
-csv_path = "/Users/utkarsh/Desktop/Atlas data download/ATLAS Concept Sets _source code.csv"
+csv_path = "ATLAS Concept Sets _source code.csv"
 
 try:
     data = pd.read_csv(csv_path)
