@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the dataset
-csv_path = "ATLASConceptSetsSourceCode.csv"
+csv_path = "./ATLASConceptSetsSourceCode.csv"
 
 try:
     data = pd.read_csv(csv_path)
